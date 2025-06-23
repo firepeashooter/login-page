@@ -3,13 +3,22 @@ body{
     height: 100vh;
 }
 
-
 .left{
-    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-grow: 0.5;
     background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100px;
+    width: 100%;
 }
 
 .right{
