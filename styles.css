@@ -1,3 +1,34 @@
-h1{
-    color:green;
+body{
+    display: flex;
+    height: 100vh;
+}
+
+
+.left{
+    flex-grow: 1;
+    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.top{
+    flex: 1;
+    background-color: gray;
+}
+
+.middle{
+    flex:1;
+    background-color: whitesmoke;
+}
+
+.bottom{
+    flex:1;
+    background-color: gray;
 }
